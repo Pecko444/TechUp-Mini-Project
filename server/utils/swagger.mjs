@@ -21,11 +21,8 @@ const swaggerDefinition = {
 const options = {
   swaggerDefinition,
   // Paths to files containing OpenAPI definitions
-  apis: [path.resolve(__dirname, "../routes/*.mjs")],
+  apis: [path.resolve(__dirname, "../routes/*.mjs")], //why we need to do the absolute path ???
 };
-
-//console.log("swagger: ", options);
-//console.log(__dirname);
 
 // Initialize swagger-jsdoc
 const swaggerSpec = swaggerJsDoc(options);
