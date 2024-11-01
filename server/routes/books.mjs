@@ -5,7 +5,6 @@ import validateErrors from "../middlewares/errorHandling.mjs";
 
 const booksRouter = Router();
 
-//wait adding middlewares and will write swagger comment later
 /**
  * @swagger
  * /books:
